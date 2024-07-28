@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+.Green{
+    background-color: green;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    padding: 9px;
+    border-radius: 10px;
+    color: white;
+}
+
+.Red{
+    background-color: red;
+    padding: 9px;
+    font-size: 20px;
+
+    border-radius: 10px;
+    color: white;
+}
+
+.Blue{
+    background-color: blue;
+    margin: 20px;
+    font-size: 20px;
+
+    border: 3px solid black;
+    padding: 9px;
+    border-radius: 10px;
+    color: white;
+}
+.random{
+    padding: 9px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
